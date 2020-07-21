@@ -1,0 +1,212 @@
+body {
+    font-family: 'Baloo 2', cursive;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#new-cards a {
+    font-weight: bolder;
+    color: black;
+    text-decoration: transparent;
+}
+a:hover {
+    text-decoration: transparent;
+}
+.bg-blue {
+background-color: #385A7C;
+}
+.navbar-brand {
+    padding-left: 35px;
+}
+.my-display {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+ }
+ .my-lead { 
+     color: white;
+}
+.my-h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 40px;
+    font-size: 36pt;
+    text-shadow: black 0px 0px 20px;
+}
+.instructions {
+    text-align: center;
+    font-size: 21pt;
+    color: black;
+    text-shadow: white 0px 0px 10px;
+}
+.zipCode {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+.card-row {
+    padding-top: 15px;
+}
+.card-width {
+    max-width: 300px;
+}
+.zip-button {
+    background-color: #385A7C;
+    color: white
+}
+.zip-button:hover {
+    background-color: #FE5F55;
+}
+.change-button {
+    background-color: #FE5F55;
+    color: white;
+    border: none;
+}
+.change-button:hover {
+    background-color: #8B0000;
+    color: white;
+    border: none;  
+}
+.change-button:active :focus {
+    background-color: #8B0000;
+    color: white;
+    border: none;  
+}
+.change-form {
+    padding-right: 35px;
+}
+.my-col {
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner > .carousel-item {
+    height: 300px;
+ }
+ .pad-car {
+     padding-top: 40px;
+ }
+ .event-h1 {
+    text-align: center;
+    color: #385A7C;
+    padding-top: 20px;
+    font-size: 36pt;
+ }
+ .hide {
+     display: none;
+ }
+ .show {
+     display: contents;
+ }
+​
+ /* css footer */
+  
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    bottom: 0;
+      
+  }
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    
+  }
+  
+#footer {
+    color: white;
+    text-align: center;     
+  }
+  /* navbar */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+  }
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+  
+    position: relative;
+  }
+  
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+nav a:hover {
+    color: #000;
+  }
+  
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+nav a:hover::before {
+    width: 100%;
+  }
+  /* styling for youtube content */
+body {
+    font-family: 'Baloo 2', cursive;
+  }
+  .youtube-row {
+    height: 380px;
+    background-color: rgb(238, 238, 245);
+  }
+  #preview-cards {
+    margin-top: 17px;
+    max-height: 350px;
+  }
+  #video{
+    padding-top: 32px;
+  }
+  article {
+    background-color: white;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      border-bottom: 1px solid rgb(221, 221, 221);
+      padding: 8px 12px;
+      border-radius: 8px;
+    }
+    article:hover{
+      border: 1px solid #385A7C
+    }
+  .thumb {
+      height: 70px;
+      border-radius: 4px;
+  }
+  .card-title{
+    font-size: 12pt;
+    font-weight: bold;
+  }
+  .details {
+      padding: 8px 22px;
+  }
+  .severe {
+    margin-left: auto;
+    margin-right: auto; 
+    max-height: 400px;  
+  }
+  /* end styling for youtube content */
+  .card {
+    min-height: 376px;
+    max-height: 376px;
+    }
+    .card-img-top {
+        min-height: 190px;
+        max-height: 190px;
+    }
